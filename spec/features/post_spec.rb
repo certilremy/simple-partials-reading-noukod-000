@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'navigate' do
+ 'navigate' do
   before do
     @author = Author.create(name: "John Grisham", hometown: "Charlottesville, VA")
 
