@@ -1,6 +1,6 @@
 require 'rails_helper'
 
- 'navigate' do
+describe 'navigate' do
   before do
     @author = Author.create(name: "John Grisham", hometown: "Charlottesville, VA")
 
@@ -24,7 +24,7 @@ require 'rails_helper'
 end
 
 describe 'form' do
-  before do
+  before do 
     @author = Author.create(name: "John Grisham", hometown: "Charlottesville, VA")
     @post = Post.create(title: "My Post", description: "My post desc", author_id: @author.id)
 
